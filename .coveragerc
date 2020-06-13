@@ -1,0 +1,6 @@
+[report]
+include =
+    src/pst/*
+omit =
+    */test*
+    */upgrades/*
