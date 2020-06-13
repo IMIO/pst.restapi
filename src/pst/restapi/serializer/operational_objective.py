@@ -27,4 +27,5 @@ class OOSummarySerializer(DefaultJSONSummarySerializer):
             if callable(value):
                 value = value()
             summary[field] = json_compatible(value)
+        summary["original_title"] = getattr(self.context, "title", "")
         return summary
