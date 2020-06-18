@@ -2,3 +2,5 @@ graft src/pst
 graft docs
 include *.rst
 global-exclude *.pyc
+include LICENSE.GPL
+exclude requirements.txt
