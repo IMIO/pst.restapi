@@ -19,7 +19,7 @@ class OOSummarySerializer(DefaultJSONSummarySerializer):
             if field.startswith("_") or field in BLACKLISTED_ATTRIBUTES:
                 continue
             accessor = FIELD_ACCESSORS.get(field, field)
-            if field == "Title":
+            if field in ("Title", "title"):
                 # This condition is necessary because of the way the PST generate title
                 value = getattr(self.context, accessor, None)
             else:
