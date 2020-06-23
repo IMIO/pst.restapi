@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0a2 (unreleased)
+1.0a2 (2020-06-23)
 ------------------
 
 - Fix edgecases with `title` for operational and strategic objectives summary serialization
