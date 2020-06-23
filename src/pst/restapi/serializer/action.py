@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
+from imio.restapi.serializer.base import SerializeToJson
 from plone.restapi.interfaces import ISerializeToJson
 from plone.restapi.interfaces import ISerializeToJsonSummary
-from zope.interface import implementer
 from zope.component import queryMultiAdapter
-from plone.restapi.serializer.dxcontent import SerializeToJson
+from zope.interface import implementer
 
 
 @implementer(ISerializeToJson)

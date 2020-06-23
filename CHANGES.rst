@@ -5,7 +5,8 @@ Changelog
 1.0a3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Use the new base serializer from imio.restapi for actions
+  [mpeeters]
 
 
 1.0a2 (2020-06-23)
