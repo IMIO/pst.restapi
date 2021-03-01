@@ -22,4 +22,10 @@
     factory=".strategic_objective.OSSummarySerializer"
     />
 
+  <adapter
+    for="imio.project.pst.content.action.IPSTAction
+         *"
+    factory=".action.ActionSummarySerializer"
+    />
+
 </configure>

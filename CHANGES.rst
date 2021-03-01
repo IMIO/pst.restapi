@@ -5,7 +5,8 @@ Changelog
 1.0a4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add a specific summary serializer for actions
+  [mpeeters]
 
 
 1.0a3 (2020-06-23)
